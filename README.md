@@ -2,12 +2,12 @@
 
 By [Quitty](mailto:quittyband@gmail.com)
 
-### What's HYDI?
+## What's HYDI?
 HYDI (**H**ow'd **Y**ou **D**o **I**t?) is a productivity tool
 to help you get a web-service or application up and running very quickly,
 by making some tried-and-true design and architecture choices for you.
 
-##### How quickly?
+#### How quickly?
 3 minutes and you'll be up and running on a standard broadband connection,
 with a full-featured API, scalable production-ready front-end
 and promise-based communications between the two.
@@ -16,7 +16,7 @@ The rule of thumb is that each major action in a HYDI project should
 take no more than 5 minutes - assuming you have your application code ready -
 whether it's adding an API route, a web page or a service.
 
-##### How?
+#### How?
 
 HYDI takes a 'convention over configuration' approach,
 while making some tweaks that improve scalability;
@@ -43,6 +43,7 @@ and scalable.
 Browse to localhost:4242 to see the results,
 and open the dev-console to see some sample communications with the backend.
 
+##### Important!
 Instructions on adding functionality to the project are in the code -
 make sure you read through the descriptions in all base classes
 (**BaseApi, BaseService and BaseModel**)
