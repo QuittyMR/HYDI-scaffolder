@@ -40,8 +40,9 @@ and scalable.
 * ```$ ./build.sh``` or ```$ ./build3.sh```
 * ```$ ./start.sh```
 
-Browse to localhost:4242 to see the results,
-and open the dev-console to see some sample communications with the backend.
+Browse to localhost:4242, and open the dev-console
+to see some sample communications with the backend.
+
 
 #### Important!
 Instructions on adding functionality to the project are in the code -
