@@ -1,0 +1,34 @@
+.tile .list-items {
+    margin-left:20px;
+}
+
+.tile .narrow {
+    padding-left: 1.2rem;
+    padding-right: 2.0rem;
+}
+
+.tile .is-darker  {
+    background-color: #00b192 !important;
+}
+
+.is-centered {
+    display: flex;
+}
+
+.tile .card-1 {
+    -webkit-box-shadow: 7px 6px 5px rgba(0, 0, 0, 0.5);
+    -moz-box-shadow: 7px 6px 5px rgba(0, 0, 0, 0.5);
+    box-shadow: 7px 7px 6px rgba(0, 0, 0, 0.5);
+}
+
+.tile .card-2 {
+    -webkit-box-shadow: 5px 4px 3px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 5px 4px 3px rgba(0, 0, 0, 0.3);
+    box-shadow: 5px 5px 4px rgba(0, 0, 0, 0.3);
+}
+
+.tile .card-3 {
+    -webkit-box-shadow: 3px 2px 1px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 3px 2px 1px rgba(0, 0, 0, 0.3);
+    box-shadow: 3px 2px 1px rgba(0, 0, 0, 0.3);
+}

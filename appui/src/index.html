@@ -1,0 +1,70 @@
+<!doctype html>
+<html ng-app="baseline-ui">
+<head>
+    <base href="/">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="Baseline Angular UI by Quitty">
+    <meta name="viewport" content="width=device-width">
+    <baseline-header></baseline-header>
+    <!-- build:css({.tmp,src}) styles/app.css -->
+    <!-- inject:css -->
+    <!-- endinject -->
+    <!-- endbuild -->
+
+    <!-- build:js({.tmp,src}) scripts/vendor.js -->
+    <!-- bower:js -->
+    <!-- endbower -->
+    <!-- endbuild -->
+
+    <!-- build:js({.tmp,src}) scripts/app.js -->
+    <!-- inject:js -->
+    <!-- endinject -->
+    <!-- endbuild -->
+</head>
+<body>
+<div class="tile is-ancestor">
+    <div class="tile is-4 is-parent is-vertical">
+        <div class="tile is-child notification is-info card-1">
+            <h2 class="title has-text-centered">Baseline app</h2>
+        </div>
+
+        <div class="tile is-child notification is-primary card-2">
+            <div class="has-text-centered">
+                By <a href="mailto:qtomerr@gmail.com"><h2 class="title">Tomer Raz</h2></a>
+            </div>
+        </div>
+
+        <div class="tile notification is-primary card-2">
+            <div class="tile is-child notification is-primary is-3 is-vertical"></div>
+            <div class="tile is-parent notification is-primary is-6 is-vertical">
+                <div class="has-text-centered">
+                    <h4 class="title is-4">Built using:</h4>
+                </div>
+                <div class="tile is-child notification is-primary is-darker has-text-left card-3">
+                    <b>Python 2.7:</b>
+                    <div class="list-items">
+                        Bottle<br/>
+                        Redis
+                    </div>
+
+                </div>
+                <div class="tile is-child notification is-primary is-darker has-text-left card-3">
+                    <b>AngularJS 1.6:</b>
+                    <div class="list-items">
+                        UI router<br/>
+                        UI Bootstrap<br/>
+                        JQuery<br/>
+                        Lodash
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <ui-view></ui-view>
+
+</div>
+</body>
+</html>
+

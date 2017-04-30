@@ -1,0 +1,30 @@
+.tile .is-primary a .title {
+    color: #eeeeee;
+    font-weight: 200;
+    transition: all 0.5s ease;
+}
+
+.tile .is-primary a .title:hover  {
+    color: #ffffff;
+    font-weight: 300;
+}
+
+.tile .is-primary .box {
+    color: black;
+}
+
+.tile .chat {
+    width: 48rem;
+}
+
+.text-medium {
+    width:12rem;
+}
+
+.notification .is-spaced {
+    margin-bottom: 1rem;
+}
+
+.notification .is-top-aligned {
+    padding-top: 0.4rem;
+}

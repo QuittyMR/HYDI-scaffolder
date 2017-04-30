@@ -1,0 +1,6 @@
+argparse==1.2.1
+bottle==0.12.13
+configparser==3.5.0
+redis==2.10.5
+wsgiref==0.1.2
+six==1.10.0

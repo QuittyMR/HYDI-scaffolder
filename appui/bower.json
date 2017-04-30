@@ -1,0 +1,18 @@
+{
+  "name": "baseline-ui",
+  "license": "PROPRIETARY",
+  "private": true,
+  "description": "",
+  "author": "quittyband@gmail.com",
+  "dependencies": {
+    "angular": "1.6.2",
+    "angular-ui-router": "1.0.0-rc.1",
+    "angular-bootstrap": "1.1.0",
+    "jquery": "2.1.4",
+    "lodash": "4.17.4",
+    "bulma": "0.4.1"
+  },
+  "resolutions": {
+    "angular": "1.6.2"
+  }
+}
