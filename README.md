@@ -50,15 +50,15 @@ make sure you read through the descriptions in all base classes
 
 ## What am i getting?
 * A Python API server, fully compatible with either 2.7+ or 3.x
- * Readable, maintainable and scalable
- * CORS support
- * Redis-based caching with object serialization support
+  * Readable, maintainable and scalable
+  * CORS support
+  * Redis-based caching with object serialization support
 
 * An AngularJS 1.6 front-end (component pattern)
- * Small footprint (~550Kb)
- * Automatically minified, combined and injected with source maps
- * Promise-based async communication with API
- * Mini-server for UI with browser-sync
+  * Small footprint (~550Kb)
+  * Automatically minified, combined and injected with source maps
+  * Promise-based async communication with API
+  * Mini-server for UI with browser-sync
 
 ### Not digging my choices?
 HYDI is a work-in-progress, and will eventually hold many combinations
